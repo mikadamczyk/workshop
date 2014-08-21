@@ -12,6 +12,7 @@
     $('.help-btn').on('click', function() {
         alert("Employee Directory v3.4");
     });
+
     document.addEventListener('deviceready', function () {
         if (navigator.notification) { // Override default HTML alert with native dialog
             window.alert = function (message) {
